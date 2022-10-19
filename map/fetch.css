@@ -1,0 +1,85 @@
+body{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiSbmLl8cbdrG9mPWXC9GquGMfVUd0dp6nAA&usqp=CAU');
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-family: 'Open Sans', sans-serif;
+}
+#logo{
+    display: flex;
+    
+    height: 70px;
+    width: 100%;
+    justify-content: space-between;
+}
+#logo>div{
+   
+    width: 40%;
+   
+}
+#head{
+   
+    margin-left:15%;
+    margin-top: -45px;
+    font-size: 25px;
+    font-family: cursive;
+}
+#container{
+    
+    display: flex;
+    height: 520px;
+    margin: auto;
+    margin-top:50px;
+    width: 90%;
+    justify-content: space-between;
+    
+}
+#container>div{
+  border:2px solid rgba(95, 168, 236, 0.829);
+  height: 495px;
+  width:35%;
+  border-radius: 50px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  
+}
+#city{
+  width: 200px;
+  height: 25px;
+  border-radius: 5px;
+  border: none;
+  margin-left:25%;
+  
+}
+#butt{
+    border-style: none;
+    padding: 0px 20px;
+    height: 30px;
+    align-items: center;
+    background-color: rgb(133,229,198);
+    border-radius:50px;
+    margin-left:5%;
+    margin-top: 20px;
+   
+}
+.setting{
+   text-align:left;
+   
+
+}
+h3{
+ font-size: 17px;
+ margin-top: 15px;
+ margin-left:30px;
+ color: rgb(0, 0, 0);
+
+}
+mark{
+    background-color:rgb(133,229,198);
+    font-weight:bold;
+}
+.iconic{
+    margin-top: 1px;
+    margin-right: 10px;
+    height:25px;
+    width:25px;
+
+}
